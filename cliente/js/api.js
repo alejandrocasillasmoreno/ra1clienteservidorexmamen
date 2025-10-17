@@ -9,3 +9,5 @@ async function obtenerProducto(id) {
   const respuesta = await fetch(`${API_URL}?id=${id}`);
   return await respuesta.json();
 }
+
+
